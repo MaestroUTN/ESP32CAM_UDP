@@ -130,6 +130,5 @@ void enviarImagenRapida() {
 
 void loop() {
     //enviarImagenUDP();
-    enviarImagenRapida();
-    //delay(10); // Una foto cada 5 segundos
+    enviarImagenRapida(); 
 }

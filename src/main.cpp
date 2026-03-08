@@ -3,9 +3,9 @@
 #include "esp_camera.h"
 
 // Configuración de Red
-const char* ssid = "INFINITUM02C5";
-const char* password = "5RCm9StdXh";
-const char* udpAddress = "192.168.1.74"; // IP de tu PC con Java
+const char* ssid = "SSIDTURED";
+const char* password = "PASSTURED";
+const char* udpAddress = "192.168.1.XX"; // IP de tu PC con Java
 const int udpPort = 4444;
 
 WiFiUDP udp;

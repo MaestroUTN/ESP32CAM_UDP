@@ -54,7 +54,7 @@ void configurarSensor() {
     
     config.frame_size = FRAMESIZE_SVGA; 
     config.jpeg_quality = 10; // Calidad máxima         
-    config.fb_count = 2; // Reducido a 1 para asegurar una sola captura limpia
+    config.fb_count = 2; // Seteado a 2.... doble 
 
     esp_err_t err = esp_camera_init(&config);
     if (err != ESP_OK) {
